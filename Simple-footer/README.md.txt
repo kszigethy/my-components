@@ -1,1 +1,1 @@
-A simply footer.
+A simple footer.
