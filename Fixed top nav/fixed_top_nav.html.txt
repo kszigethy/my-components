@@ -1,0 +1,4 @@
+<a href="#" class="sign-up">Sign Up</a>
+<a href="#">Sign In</a>
+<a href="#">About</a>
+<a href="#">Home</a>
