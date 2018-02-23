@@ -1,1 +1,0 @@
-Sticky Footer - calc().
