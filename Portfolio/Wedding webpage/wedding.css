@@ -1,0 +1,428 @@
+                          /* === MOBILE VIEW === */
+
+                          /* ====  CSS Reset === */
+
+* {
+  box-sizing: border-box;
+}
+
+                          /* ====  Header, footer, fonts === */
+
+.material-icons { 
+  color: rgba(255, 255, 255, 1);
+  font-size: .7rem;
+}
+
+.landing-page, #date {
+font-family: 'Libre Baskerville', serif;
+}
+
+div h1 {
+font-family: 'Great Vibes', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+}
+
+footer {
+background-color: #606060;
+}
+
+.programs, .questions-and-answers {   
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.programs h2 {
+  text-align: center;
+}
+
+body {
+  color: #444349;
+  background-image: url(" https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+header {
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-page {
+  color: #fff;
+  margin: 0 auto;
+  padding: .625rem;
+  letter-spacing: .15rem;
+}
+
+#date {
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  color: #fff;
+}
+
+#date::before,
+#date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+header {
+  position: relative;
+}
+
+.landing-title-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+section {
+  margin: 1.5rem auto;
+  padding: 0.5rem 1rem;
+}
+
+h1, h2, h3,
+ul, ol, 
+p, 
+img {
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+div h2 {
+  padding-top: 1rem;
+}
+
+.landing-title {
+  background: hsla(100,0%,0%,.5);  
+  width: 100%;
+}
+
+.landing-title h1 {
+  line-height: 3rem;
+}
+
+div h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  padding-top: 1rem;
+}
+
+.landing-page::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: .125rem;
+  width: 10rem;
+  margin: .5rem auto;
+}
+
+                          /* ====  Locations === */
+
+.ceremony, .photos, .party {
+  display: block;
+  width: 100%;
+}
+
+#ceremony, #photos, #party {
+  width: 8rem;
+}
+
+.locations::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.ceremony::after, .photos::after, .party::after  {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+.ceremony h3 {
+  font-weight: bold;
+}
+
+.photos h3 {
+  font-weight: bold;
+}
+
+.party h3 {
+  font-weight: bold;
+}
+
+.locations h2 {
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+.locations p {
+  line-height: 1rem;
+}
+
+                          /* ====  Program === */
+
+.programs p {
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+
+
+                          /* ====  Gifts === */
+
+.gifts p {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.gifts img {
+  width: 8rem;
+}
+.gifts h2 {
+margin-bottom: 2rem;
+}
+
+#second-paragraph {
+  margin-bottom: 0;
+}
+
+                          /* ====  Questions and Answers === */
+
+.questions-and-answers h2 {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  line-height: 3rem;
+}
+
+.questions-and-answers h3 {
+  text-align: center;
+}
+
+.questions {
+  font-weight: bold;
+  
+}
+
+#email {
+  word-wrap: break-word;
+}
+
+.answers {
+  padding-bottom: 2rem;
+}
+
+.travel::after, .food::after, .other::after {
+  content:"";
+  display: block;
+  width: 70vw;
+  background-color: #d2ba87;
+  height: .2rem;
+  margin: 2rem auto;
+}
+
+
+                          /* ====  Contact === */
+
+.contact {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.contact h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+                          /* ====  Footer === */
+
+footer {
+  width: 100vw;
+  height: 7ch;
+  text-align: center;
+  display: table;
+}
+
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: .7rem;
+  padding: 1rem;
+}
+
+
+                          /* ====  DESKTOP LAYOUT === */
+
+                          /* ====  DESKTOP LAYOUT - Landing page === */
+
+@media (min-width: 768px) {
+
+  .landing-page {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+    text-transform: uppercase;
+  }
+
+  .landing-page h1 {
+    font-size: 7rem;
+  }
+  
+  .landing-title h1 {
+    font-size: 7rem;
+  }
+
+}
+
+                          /* ====  DESKTOP LAYOUT - Locations === */
+
+@media (min-width: 768px) {
+
+  .ceremony, .photos, .party {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-right: 1rem;
+}
+
+#ceremony, #photos, #party {
+  width: 18%;
+}
+
+.locations::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.ceremony h3 {
+  font-weight: bold;
+}
+
+.photos h3 {
+  font-weight: bold;
+}
+
+.party h3 {
+  font-weight: bold;
+}
+
+.locations h2 {
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+}
+
+.locations p {
+  line-height: 1rem;
+}
+
+  .ceremony::after, .photos::after, .party::after {
+  display: none;
+}
+  }
+
+                          /* ====  DESKTOP LAYOUT - Programs === */
+
+@media (min-width: 768px) {
+
+    .programs p {
+      font-style: italic;
+}
+
+    .programs p, ul {
+      text-indent: 30%;
+}
+  }
+
+                          /* ====  DESKTOP LAYOUT - Questions and Answers === */
+
+@media (min-width: 768px) {
+
+  .questions-and-answers h2 {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.questions {
+  font-weight: bold;
+  
+}
+  
+  .questions-and-answers h3 {
+  text-align: left;
+}
+
+.travel, .food, .other {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+  padding: 3rem;
+}
+
+#email {
+  word-wrap: break-word;
+}
+
+.answers {
+  padding-bottom: 2rem;
+}    
+
+  .travel::after, .food::after, .other::after {
+  display: none;
+}
+
+  }
+
+                          /* ====  DESKTOP LAYOUT - Footer === */
+
+@media (min-width: 768px) {
+
+  footer {
+  width: 100vw;
+  height: 7ch;
+  text-align: center;
+  display: table;
+}
+
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: .7rem;
+  padding: 1rem;
+}
+
+}
